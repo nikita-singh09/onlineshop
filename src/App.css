@@ -392,8 +392,6 @@
   position: sticky;
   margin-top: 25px;
   margin-left: 20px;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 .leftContainer .itemsShow{
@@ -402,16 +400,12 @@
   overflow-y: scroll;
   margin-top: 25px;
   margin-left: 20px;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 .rightContainer .priceDetail{
   width: 96%;
   margin-top: 25px;
   height: 60%;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 .leftContainer .numberContain {
@@ -587,12 +581,9 @@
   font-size: 18px;
   padding: 8px 20px;
   font-weight: 600;
-
 }
 
-
 /* media queries */
-
 @media only screen and (min-width: 1201px){
   /* product page */
   .product-container .productCard .css-uqwprf-MuiGrid-root {
