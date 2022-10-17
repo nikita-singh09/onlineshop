@@ -19,7 +19,7 @@ const Header = () => {
         <>
         <Box className= "main-header">
             <Box className="shoppingIcon">
-                <Link to="/home"><ShoppingBagIcon /></Link>
+                <Link to="/onlineshop"><ShoppingBagIcon /></Link>
                 <Typography><span>S</span>hop<span>O</span>nline</Typography>
             </Box>
             <Box className="cartIcon">

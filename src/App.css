@@ -139,6 +139,7 @@
 .product-box {
   margin-top: 10px;
 }
+
 .product-box .proTitle{
   font-size: 35px;
   text-align: center;
@@ -164,6 +165,12 @@
 } 
 .product-container .productCard .css-11lq3yg-MuiGrid-root, .product-container .productCard .css-bhp9pd-MuiPaper-root-MuiCard-root{
   height: 100%;
+ 
+}
+.product-container .productCard .css-bhp9pd-MuiPaper-root-MuiCard-root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .productCard .css-k3f0g4-MuiGrid-root{
   height: 100%;
@@ -175,7 +182,8 @@
 }
 .productContent{
   padding-left: 15px;
-  padding-top: 15px;
+  padding-right: 15px;
+  /* padding-top: 15px; */
 }
 .productContent .productName{
   font-size: 27px;
@@ -239,7 +247,8 @@
   text-decoration: none;
 }
 .cartBtn button{
-  width: 30%;
+  /* width: 30%; */
+  padding: 6px 25px;
   background: rgb(109 154 197);
   font-weight: 600;
   font-size: 18px;
@@ -580,3 +589,211 @@
   font-weight: 600;
 
 }
+
+
+/* media queries */
+
+@media only screen and (min-width: 1201px){
+  /* product page */
+  .product-container .productCard .css-uqwprf-MuiGrid-root {
+    height: 100%;
+  }
+  .productContent{
+    padding-top:0;
+  }
+  .productPrice, .specialCoupon {
+    margin-top: 5px;
+  }
+  .productContent .productTitle{
+    margin-top: 5px;
+  }
+  .productContent .productCoupon{
+    margin-top: 15px;
+  }
+  .specialCoupon .specialPrice{
+    font-size: 20px;
+  }
+  .specialCoupon .priceCoupon{
+    font-size: 20px;
+  }
+  .productContent .productDesc{
+    font-size: 20px;
+    letter-spacing:0;
+  }
+  .cartBtn{
+    margin-top: 15px;
+  }
+  /* cart page */
+  .rightSide .specialPrice{
+    margin-top: 10px;
+    font-size: 23px;
+  }
+  .rightSide .couponContainer svg{
+    margin-top: 12px;
+  }
+  .rightSide .couponApplied{
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .rightSide .deliverDate{
+    font-size: 24px;
+  }
+  .rightSide h4{
+    font-size: 30px;
+  }
+  .priceSubContainer{
+    padding:0;
+  }
+  .priceTable h5{
+    padding: 15px 20px;
+    font-size: 26px;
+  }
+  .priceTable .totalAmount{
+    font-size: 30px;
+    padding: 20px 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+  /* homepage */
+  .itemCard{
+    height: 555px;
+  }
+  .itemCard img {
+    height: 400px;
+  }
+  .specialCoupon .priceCoupon {
+    font-size: 18px;
+  }
+  .productContent .productTitle{
+    margin-top: 10px;
+    font-size: 19px;
+  }
+  .productContent .itemPrice{
+    font-size: 20px;
+  }
+  .productContent .itemActualPrice{
+    font-size: 20px;
+  }
+  .productContent .productCoupon{
+    margin-top: 15px;
+  }
+  .specialCoupon .specialPrice{
+    font-size: 18px;
+  }
+  .productContent .productDesc {
+    margin-top:0;
+    letter-spacing: 1.1px;
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+  /* cart page */
+  .leftContainer .leftSide img{
+    width: 300px;
+  }
+  .rightSide{
+    margin: 0px 15px;
+  }
+  .rightSide h4{
+    font-size: 30px;
+  }
+  .rightSide h5{
+    font-size: 22px;
+  }
+  .rightSide .specialPrice{
+    font-size: 23px;
+    margin-top: 5px;
+  }
+  .rightSide .couponApplied{
+    font-size: 22px;
+    margin-top: 15;
+  }
+  .rightSide .couponContainer svg{
+    margin-top: 15px;
+  }
+  .rightSide .deliverDate{
+    font-size: 21px;
+  }
+  .rightSide .removeBtn button{
+    font-size: 19px;
+    padding: 8px 20px;
+  }
+  .priceTable h5{
+    font-size: 24px;
+    padding: 15px 8px;
+  }
+  .priceTable .totalAmount{
+    font-size: 30px;
+    padding: 20px 7px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .productContent .productTitle{
+    margin-top: 0px;
+    font-size: 18px;
+  }
+  .productContent .itemPrice{
+    font-size: 20px;
+  }
+  .productContent .itemActualPrice{
+    font-size: 20px;
+  }
+  .productContent .itemOffer{
+    font-size: 20px;
+  }
+  .productContent .productCoupon{
+    margin-top: 10px;
+  }
+  .specialCoupon .specialPrice{
+    font-size: 18px;
+  }
+  .specialCoupon .priceCoupon{
+    font-size: 18px;
+  }
+  .productContent .productDesc{
+    margin-top:0;
+    letter-spacing:0;
+    font-size: 18px;
+  }
+  .cartBtn{
+    margin-top: 5px;
+  }
+  .cartBtn button{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 767px){
+  .product-box{
+    margin-top: 0;
+  }
+  .product-box .proTitle{
+    margin-top:15px;
+  }
+  .product-container .productCard .css-11lq3yg-MuiGrid-root{
+    height: 100%;
+    display: block;
+    overflow-y: scroll;
+  }
+  .productCard .css-k3f0g4-MuiGrid-root{
+    max-width: 100%;
+  }
+  .product-container .productCard .css-uqwprf-MuiGrid-root{
+    max-width: 100%;
+  }
+  .productContent .productName{
+    text-align: center;
+  }
+  .productContent .productTitle{
+    margin-top:0;
+    text-align: center;
+  }
+  .productPrice{
+    justify-content: center;
+  }
+  .cartBtn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}
+

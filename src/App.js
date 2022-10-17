@@ -16,9 +16,9 @@ function App() {
             <BrowserRouter>
                <Header/>
                <Routes>
-                  <Route exact path="/" element={<Login />} />
-                  <Route path="/home" element={<Home />} />
-                  <Route path="/signup" element={<Signup />} />
+                  {/* <Route exact path="/" element={<Login />} /> */}
+                  <Route path="/onlineshop" element={<Home />} />
+                  {/* <Route path="/signup" element={<Signup />} /> */}
                   <Route path="/product" element={<Product />} />
                   <Route path="/cart" element={<AddToCart/>}/>
                </Routes>
